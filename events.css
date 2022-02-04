@@ -94,7 +94,7 @@ body{
 .layer-evt img{
     width: 100%;
  transition:0.5s;
-    height: 39vh;
+    height: 42vh;
     }
     .layer-evt img:hover{
         opacity: 0;
@@ -107,7 +107,7 @@ body{
     color: rgb(255, 189, 6);
     font-size: 100px;
     bottom: 0;
-    left: 50%;
+    left: 51%;
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
@@ -116,13 +116,13 @@ body{
 .layer-evt:hover h3{
     bottom: 45%;
     opacity: 1;
-    font-size: 50px;
-    letter-spacing: 0.2cm;
+    font-size: 40px;
+    letter-spacing: 0.1cm;
    
 }
 
 .layer-evt p{
-    width: 96%;
+    width: 100%;
     font-size: 25px;
     color: rgb(255, 255, 255);
     opacity: 0;
@@ -130,12 +130,15 @@ body{
     transition: 0.5s;
     bottom: 0;
     text-align: center; 
+    padding: 0px;
+    line-height: 30px;
 }
 .layer-evt:hover p{
-    bottom: 29%;
+    bottom: 25%;
     opacity: 1;
     text-align: center; 
     font-size: 30px;
+    padding: 0px;
     
     
 }
