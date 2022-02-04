@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+   background-image: url(assets/fireworls.jpeg);
+   opacity: 1;
+    
+}
+
+
+.REGIS{
+    width: 80%;
+    margin: auto;
+  
+}
+.register-about h1 {
+    color: goldenrod;
+    margin-top: -100px;
+
+}
+.register-about p{
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+.register-about{
+    justify-content: center;
+}
+.buttonnn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 196, 0);
+    padding: 12px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 28px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+.buttonnn:hover{
+    border: 1px solid rgb(1, 0, 2);
+    background: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    font-size: 20px;
+}
+@media(max-width: 767px){
+    .buttonnn{
+        font-size: 15px;
+    }
+    .register-about h1{
+        border: 0px;
+       text-align: left;
+        font-size: 35px;
+    }
+}
