@@ -13,16 +13,25 @@ body{
 }
 .register-about h1 {
     color: goldenrod;
-    margin-top: -100px;
+    border: 0ch;
+    font-size: 60px;
+
 
 }
+.register-col{
+    margin-top: -100px;   
+}
+
 .register-about p{
     color: rgb(255, 255, 255);
     line-height: 30px;
+    font-size: 20px;
 }
+
 .register-about{
     justify-content: center;
 }
+
 .buttonnn{
     display: inline-block;
     text-decoration: none;
