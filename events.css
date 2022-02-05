@@ -186,5 +186,11 @@ body{
 }
 .evt-head img{
     width: 29vw ;
-    height: 35vh ;
+    height: 39vh ;
+}
+@media(max-width: 767px){
+    .evt-head img{
+        width: 80vw ;
+        height: 39vh ;
+    }
 }

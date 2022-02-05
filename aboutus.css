@@ -201,11 +201,12 @@
 
 
 @media(max-width: 767px){
+    
     .ABTUS h1{
         flex-direction: column;
-        display: inline;
+        
         font-size: 40px;
-        text-align: center;
+        text-align: justify;
         
     }
     .layer-abt img{
@@ -271,6 +272,11 @@ justify-content: center;
 
 }
 .abt-head img{
-    width: 35vw ;
-    height: 40vh ;
+    width: 40vw ;
+    height: 50vh ;
 }
+@media(max-width: 767px){
+    .abt-head img {
+        width: 80vw;
+        height: 46vh;
+    }}
