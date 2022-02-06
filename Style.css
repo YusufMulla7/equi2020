@@ -381,9 +381,9 @@ h3{
     .layer p{
         font-size: 15px;
             }
-            /* .layer:hover p{
+            .layer:hover p{
                 bottom: 1%;
-            } */
+            }
             .layer h3{
                 font-size: 20px;
                 line-height: 35px;
@@ -557,7 +557,7 @@ h3{
         font-size: 15px;
         line-height: 20px;
         text-align: left;
-        width: 97%;
+        width: 100%;
         position: relative;
     }
     .cta h1{
@@ -595,14 +595,18 @@ h3{
         width: 350px;
     }
     .mainev:hover h3{
-    font-size: 30px;
-    bottom: 90%;
+    font-size: 23px;
+    bottom: 83.5%;
+    padding-left: 9px;
     }
+    .mainev h3{
+        font-size: 30px;
+        }
     .mainev{
         width: 100%;
     }
     .mainev:hover p{
-bottom: 0%;
+bottom: -7%;
 text-align: justify;
     }
 
