@@ -297,74 +297,77 @@ h3{
     position: absolute;
     transition: 0.5s;
     background-size: cover;
+    border: 5px solid goldenrod;
+    border-radius: 10px;
 }
 .layer img{
     width: 100%;
     height: 65vh;
     }
 .layer:hover{
-    background: rgb(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0,);
 }
 .layer h3{
     width: 100%;
     font-weight: 500 ;
     color: rgb(255, 189, 6);
     font-size: 26px;
-    bottom: 0;
+    bottom: 70% ;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     transition: 0.5s;
 }
 .layer:hover h3{
-    bottom: 70%;
+    bottom: 35%;
     opacity: 1;
+    font-size: 30px;
 }
 .layer p{
-    width: 98%;
+    width: 97%;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     transition: 0.5s;
-    bottom: 0;
+    bottom: 30%;
     text-align: left;   
     line-height: 30px;
 }
 .layer:hover p{
-    bottom: 30%;
+    bottom: 50%;
     opacity: 1;
     padding-top: 5px;
     text-align: left; 
     font-size: 20px;
-    width: 98%; 
+    width: 97%; 
 }
 #PA{
-    background-image: url(ASSETS/book.jpeg);
+    /* background-image: url(ASSETS/book.jpeg); */
     width: 100%;
     height: 65vh;
 }
-#PA:hover{
+/* #PA:hover{
     background: rgb(0, 0, 0, 0.7);
-}
+} */
 #EA{
-    background-image: url(ASSETS/bridge.jpeg);
+    /* background-image: url(ASSETS/bridge.jpeg); */
     width: 100%;
     height: 65vh;
 }
-#EA:hover{
+/* #EA:hover{
     background: rgb(0, 0, 0, 0.7);
-}
+} */
 #CM{
-    background-image: url(ASSETS/CLOSED.jpeg);
+    /* background-image: url(ASSETS/CLOSED.jpeg); */
     width: 100%;
     height: 65vh;
 }
-#CM:hover{
+/* #CM:hover{
     background: rgb(0, 0, 0, 0.7);
 
-}
+} */
 
 @media(max-width: 767px){
     .row{
@@ -378,12 +381,15 @@ h3{
     .layer p{
         font-size: 15px;
             }
-            .layer:hover p{
+            /* .layer:hover p{
                 bottom: 1%;
-            }
+            } */
             .layer h3{
                 font-size: 20px;
+                line-height: 35px;
+                bottom: 60%;
             }
+          
 .col1{
       text-align: center;
 }
@@ -415,16 +421,27 @@ h3{
     }
     #CM p{
         font-size: 15px;
-    }#EA{
+        bottom: 1%;
+        width: 92%;
+        line-height: 25px;
+    }
+    #EA{
         height: 100%;
     }
     #EA p{
         font-size: 15px;
+        bottom: 1%;
+        width: 92%;
+        line-height: 25px;
     }#PA{
         height: 100%;
+        
     }
     #PA p{
         font-size: 15px;
+        bottom: 1%;
+        width: 92%;
+        line-height: 25px;
     }
     html, body {
         max-width: 100%;
@@ -475,7 +492,7 @@ h3{
 
 
 .mainev h3{
-    font-size: 50px;
+    font-size: 90px;
     position: absolute;
     opacity: 0;
     transition: 0.5s;
@@ -491,7 +508,8 @@ h3{
 .mainev:hover h3{
     opacity: 1;
     text-align: center;
-    bottom: 50%;
+    bottom: 55%;
+    font-size: 50px;
     
 }
 .mainev p{
@@ -502,11 +520,13 @@ h3{
     bottom: 0;
     opacity: 0;
     transition: 0.5s;
+    text-align: justify;
+    line-height: 25px;
 
 }
 .mainev:hover p{
     opacity: 1;
-    bottom: 30%;
+    bottom: 10%;
 }
 
 .cta{
@@ -533,6 +553,13 @@ h3{
 }
 
 @media(max-width: 767px){
+    .mainev p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+        width: 97%;
+        position: relative;
+    }
     .cta h1{
         font-size: 24px;
     }
@@ -569,13 +596,14 @@ h3{
     }
     .mainev:hover h3{
     font-size: 30px;
+    bottom: 90%;
     }
     .mainev{
         width: 100%;
     }
     .mainev:hover p{
-bottom: 10%;
-text-align: center;
+bottom: 0%;
+text-align: justify;
     }
 
 }
