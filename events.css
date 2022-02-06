@@ -3,9 +3,6 @@
     margin: auto;
 
 }
-*{
-    overflow-x: hidden;
-}
 .bg{
     background-image: url(assets/bleh.jpeg);
 }
@@ -155,7 +152,7 @@ body{
 
 }
 
-@media(max-width: 1189px){
+@media(max-width: 767px){
     .rows-evt{flex-direction: column;
         width: auto;
         height: auto;
@@ -191,9 +188,9 @@ body{
     width: 29vw ;
     height: 39vh ;
 }
-@media(max-width: 1189px){
+@media(max-width: 767px){
     .evt-head img{
-        width: 69vw ;
-        height: 28vh ;
+        width: 80vw ;
+        height: 39vh ;
     }
 }
