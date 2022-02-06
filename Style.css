@@ -163,7 +163,7 @@ nav .fas{
 
 
 
-@media(max-width :767px){
+@media(max-width :1189px){
     
         .text-box p{
             margin: 10px 0 40px;
@@ -369,7 +369,7 @@ h3{
 
 } */
 
-@media(max-width: 767px){
+@media(max-width: 1189px){
     .row{
         flex-direction: column;
     
@@ -404,7 +404,7 @@ h3{
 }
 @media(max-aspect-ratio: 16/9){
     #video{
-        width: auto;
+        width: ;
         height: 100%;
     }
 }
@@ -467,7 +467,7 @@ h3{
 
 .box{
     border: 1px solid black;
-    width: 1000px ;
+    width: 765px ;
     height:200px ;
     margin: 35px auto;
     border-radius: 10px;
@@ -555,7 +555,7 @@ h3{
     color: gold;
 }
 
-@media(max-width: 767px){
+@media(max-width: 1189px){
     .mainev p{
         font-size: 15px;
         line-height: 20px;
@@ -657,7 +657,7 @@ text-align: justify;
     
 }
 
-@media(max-width:767px){
+@media(max-width:1189px){
     .layer-1 h1{
         font-size: 17px;
     }
@@ -670,7 +670,7 @@ text-align: justify;
     }  
 }
 
-@media(min-height:812px){
+@media(min-height:1189px){
     .header{
         margin-bottom: -250px;
         }
