@@ -157,7 +157,7 @@
 .layer-abt:hover p{
     bottom: 0%;
     opacity: 1;
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;  
     letter-spacing: 0.1cm;
     color: rgb(65, 0, 117);
@@ -231,7 +231,7 @@
         width: 100%;
          }
     .layer-abt:hover p{
-        font-size: 25px;
+        font-size: 23px;
             }
             .layer:hover p{
                 bottom: 1%;
