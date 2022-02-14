@@ -233,9 +233,10 @@
         text-align: center;
         
     }
+    
     .layer-abt img{
-        height: 35vh;
-        margin-top: 25px;
+        height: 33vh;
+        margin-top: 3px;
     }
     .about-coll img{
         width: 80vw;
@@ -258,7 +259,7 @@
          }
          .layer-abt:hover h3{
              font-size: 20px;
-             bottom: 26%;
+             bottom: 22%;
              text-align: center;
          }
     .layer-abt:hover p{
@@ -299,8 +300,17 @@ justify-content: center;
 }
 
 
+
+
 }
 .abt-head img{
     width: 35vw ;
     height: 40vh ;
+}
+
+@media(max-width: 767px){
+    .abt-head img{
+        width: 71vw ;
+        height: 46vh ;
+    }
 }
