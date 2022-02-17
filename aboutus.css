@@ -226,6 +226,7 @@
 
 
 @media(max-width: 767px){
+    
     .ABTUS h1{
         flex-direction: column;
         display: inline;
@@ -259,7 +260,7 @@
          }
          .layer-abt:hover h3{
              font-size: 20px;
-             bottom: 22%;
+             bottom: 26%;
              text-align: center;
          }
     .layer-abt:hover p{
