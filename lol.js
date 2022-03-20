@@ -1,5 +1,5 @@
 console.log("Fancy seeing you here. Interested in our stack? We use github, heroku, cloudflare and AWS to run the magical world of EQ22.")
-console.log("Found a bug? mail @ yusuf.mulla.2019@sse.ac.in")
+console.log("Found a bug? mail @ yusuf.mulla.2021@sse.ac.in")
 console.log("We use military grade with multiple GSLBs, do not waste time trying to break in.")
 console.log('___          ___  ')
 console.log('(o o)        (o o)') 
